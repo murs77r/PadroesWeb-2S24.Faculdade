@@ -1,50 +1,39 @@
-### 🌐 Site HTML5 sobre Desigualdade Social no DF 📊
+# 🌐 Site HTML5: Desigualdade Social no Distrito Federal 🏙️
 
-Este repositório contém o código-fonte de um website desenvolvido como parte da disciplina de Padrões Web, ministrada pelo Professor Leonardo Antonialli, no 1º Semestre do curso de Análise e Desenvolvimento de Sistemas na Faculdade de Inovação e Tecnologia SENAC-DF, em 2S/2024. O projeto foi realizado em colaboração com os colegas **João Paulo Nunes da Silva** e **João Paulo Freitas da Silva**.
+Este repositório contém o código de uma página web interativa que explora a desigualdade social no Distrito Federal (DF), Brasil. A página apresenta informações históricas, dados estatísticos, causas, impactos e exemplos de programas sociais com o objetivo de mitigar esse problema.
 
-**O website aborda a temática da desigualdade social no Distrito Federal, explorando:**
+## ✨ Conteúdo da Página
 
-*   **Dados e Estatísticas:** Apresentação de informações sobre a população, IDH e renda per capita do DF.
-*   **História de Brasília:** Uma retrospectiva da construção da capital, contrastando o planejamento original com a realidade atual de desigualdade.
-*   **Causas e Impactos:** Análise das origens e consequências da desigualdade social no DF, com vídeos explicativos.
-*   **Casos de Sucesso:** Destaque para iniciativas como o Cartão Prato Cheio e o Bolsa Família, que buscam mitigar a desigualdade.
+A página web é organizada nas seguintes seções principais:
 
-**Estrutura do Código (HTML):**
+1.  **Inicial (Home):** Apresentação visual, título, subtítulo, menu de navegação e chamada para explorar o conteúdo.
 
-O arquivo `index.html` organiza o conteúdo em seções bem definidas:
+2.  **Dados da Capital da República:** Exibe estatísticas chave do DF (População, IDH e Renda per capita), usando ícones.
 
-*   **Cabeçalho (Header):** Logotipo, menu de navegação responsivo (com ícone para dispositivos móveis) e links para as principais seções.
-*   **Seção Inicial:**
-    *   Imagem de fundo (background).
-    *   Título e subtítulo impactantes sobre a desigualdade no DF.
-    *   Chamada para ação ("Veja mais abaixo").
-*   **Seções de Conteúdo (Sections):**
-    *   `#inicial`: Dados gerais sobre o DF (população, IDH, renda).
-    *   `#historia`: História de Brasília, com imagens e textos explicativos, divididos em blocos para facilitar a leitura. Destaque para o uso de layouts flexíveis (float) e responsivos.
-    *   `#causaseimpactos`:  Análise das causas e impactos, com vídeos incorporados (elemento `<video>`).
-    *   `#casosdesucesso`: Apresentação de programas sociais, utilizando botões interativos ("toggle buttons") para exibir/ocultar informações detalhadas.  Cada seção tem um banner estilizado.
-*   **Rodapé (Footer):** Informações sobre os autores e o professor responsável.
+3.  **História de Brasília:** Apresenta um contexto histórico da construção de Brasília e a situação atual, destacando os contrastes sociais.
 
-**Tecnologias e Recursos Utilizados:**
+4.  **Causas e Impactos:** Aborda as causas da desigualdade social no DF e seus impactos na vida da população por meio de vídeos incorporados.
 
-*   **HTML5:** Estruturação semântica do conteúdo.
-*   **CSS:** Estilização visual (arquivo `style.css` externo).
-*   **JavaScript:**
-    *   Menu responsivo (função `myFunction()`).
-    *   Navegação suave e destaque do link ativo no menu (função `setActiveLink()`).
-    *   Funcionalidade dos botões "toggle" (expansão/contração de conteúdo).
-*   **Font Awesome:** Ícones (ex: barras do menu).
-*   **Imagens e Vídeos:** Elementos visuais para enriquecer o conteúdo.
-*   **Responsividade:** Layout adaptável a diferentes tamanhos de tela (uso de `viewport`, classes CSS como `organizer`, `organizer-width`, etc.).
-*    **Acessibilidade**: Foi utilizada a tag semântica correta para cada elemento, como section, div, h1, p, entre outros.
+5.  **Casos de Sucesso:** Apresenta dois programas sociais relevantes:
+    *   **Cartão Prato Cheio:** Programa do Governo do Distrito Federal.
+    *   **Programa Bolsa Família:** Programa do Governo Federal.
+    *   Ambas as seções utilizam um design expansível ("sanfona") para mostrar/ocultar o conteúdo detalhado.
 
-**Interatividade:** O JavaScript adiciona interatividade, como o menu responsivo e os botões que expandem/contraem o conteúdo.  O código JavaScript está incorporado diretamente no HTML (dentro da tag `<script>`), o que é aceitável para projetos menores, mas em projetos maiores, é recomendado separar o JavaScript em arquivos externos.
+6.  **Rodapé (Footer):** Créditos.
 
-**Observações:**
+## 🚀 Interatividade e Responsividade
 
-*   O código faz uso extensivo de classes CSS para estilização, o que facilita a manutenção e a reutilização de estilos.
-*   Há comentários no código JavaScript explicando a funcionalidade de algumas partes.
-*   O layout utiliza técnicas de `float` e `flexbox` (implicitamente, através de classes como `float-container`, `float-child`, `organizer`, etc.) para posicionamento dos elementos.
-* Foi usada uma imagem de fundo.
+*   **Menu Responsivo:** O menu se adapta a diferentes tamanhos de tela.
+*   **Links Âncora:** Navegação suave para seções específicas da página.
+*   **Seções Expansíveis ("Sanfona"):** Permite mostrar/ocultar conteúdo detalhado dos programas sociais.
+*   **Rolagem Suave:** Melhora a experiência do usuário ao navegar entre as seções.
 
-Este projeto demonstra a aplicação prática dos conceitos de Padrões Web, como HTML semântico, CSS, responsividade, acessibilidade, e interatividade com JavaScript. Ele aborda um tema relevante e atual, utilizando uma variedade de recursos para apresentar o conteúdo de forma clara e envolvente. O trabalho em equipe com **João Paulo Nunes da Silva** e **João Paulo Freitas da Silva** foi fundamental para o desenvolvimento e aprimoramento do website.
+## 🛠️ Tecnologias Utilizadas
+
+*   **HTML5:** Estrutura da página.
+*   **CSS3:** Estilização e layout responsivo.
+*   **JavaScript:** Interatividade (menu, seções expansíveis, rolagem).
+*   **Font Awesome:** Ícones.
+
+## 📜 Outras Informações
+Trabalho feito conjuntamente com João Paulo Freitas e João Paulo Nunes, em grupo.
