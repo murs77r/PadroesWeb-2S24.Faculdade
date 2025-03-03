@@ -36,4 +36,4 @@ A página web é organizada nas seguintes seções principais:
 *   **Font Awesome:** Ícones.
 
 ## 📜 Outras Informações
-Trabalho feito conjuntamente com João Paulo Freitas e João Paulo Nunes, em grupo.
+Trabalho feito em grupo por Murilo Souza, João Paulo Freitas e João Paulo Nunes.
